@@ -1,0 +1,51 @@
+h1, h2, h3, p, li, form {
+    padding-left: 10px;
+    font-family: Arial;
+}
+
+body {
+    background-color: azure;
+    margin: 0%;
+}
+
+h1 {
+    font-size: 40px;
+    color: darkcyan;
+}
+table {
+    border: 2px solid darkcyan;
+    margin-left: 10px;
+}
+th, td {
+    padding: 12px;
+}
+tr:nth-child(odd) {
+    background-color: rgb(172, 222, 253);
+}
+.listTable {
+    padding: 10px;
+    display: flex;
+}
+
+.firstList {
+    padding-right: 30px;
+}
+
+form {
+    margin: 0%;
+}
+
+.submission {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 35%;
+    max-height: 50px;
+}
+  
+.submit {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    max-height: 55px;
+}

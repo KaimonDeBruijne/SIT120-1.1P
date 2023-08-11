@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SIT120 1.1P</title>
+    <link rel="icon" href="900px-Deakin_University_Logo_2017.svg.png">
+    <link rel="Stylesheet" href="main.css">
+    <style>
+        p {
+            color: rgb(0, 85, 85);
+            padding-right: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="background-color: darkcyan; padding: 5px;">
+        <img src="900px-Deakin_University_Logo_2017.svg.png" width="150px", height="150px">
+    </div>
+    
+    <header style="background-color: rgb(196, 255, 255); padding: 5px">    
+        <h1>Basics of HTML</h1>
+        <h2>Auther:   Kaimon De Bruijne</h2>
+    </header>
+<div class="listTable">
+    <p style="width: 40%;">This is the webpage I am creating for SIT120 week 1. It is very basic but it works for what I need to get done this practical, I would like to get better at making
+        cleaner looking webpages. I think a big part of what makes a webpage look good are the colours, its kinda crazy how much colours can change the look of the page.
+        I think blues look quite good, but they can't be too saturated or it starts to look like a 2007 student website. Upon further reflection, despite the blues, it
+        still looks like a 2007 student website.
+    </p>
+
+    <div class="firstList">
+        <h3>List of things to implement</h3>
+        <ol type="1">
+            <li>Image</li>
+            <li>List</li>
+            <li>Table</li>
+            <li>Form</li>
+        </ol>
+    </div>
+    <div class="firstTable">
+        <h3>Have they been Implemented?</h3>
+        <table>
+            <tr>
+                <th>Item</th>
+                <th>Implemented</th>
+            </tr>
+            <tr>
+                <td>Image</td>
+                <td>Yes</td>
+            </tr>
+            <tr>
+                <td>List</td>
+                <td>Yes</td>
+            </tr>
+            <tr>
+                <td>Table</td>
+                <td>Yes</td>
+            </tr>
+            <tr>
+                <td>Form</td>
+                <td>No</td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+<br>
+
+<div style="background-color: aquamarine;">
+    <br>
+    <form>
+        <input type="checkbox" id="image?" name="image?" value="Image">
+        <label for="form?"> Did I implemt an image?</label><br>
+        <input type="checkbox" id="list?" name="list?" value="List">
+        <label for="list?"> Did I implemt a list?</label><br>
+        <input type="checkbox" id="table?" name="table?" value="Table">
+        <label for="vehicle2"> Did I implemt a table?</label><br>
+        <input type="checkbox" id="form?" name="form?" value="Form">
+        <label for="form?"> Did I implemt a form?</label>
+      </form> 
+      <br>
+</div>
+
+<form>
+    <div>
+        <h1 style="width: 45%;">Sign up to the welcome newsletter</h1>
+        <input type="text" name="firstName" placeholder="First name" required="required">
+        <input type="text" name="LastName" placeholder="Last name" required="required">
+        <input type="email" name="email" placeholder="Email" required="required">
+        <button class="submit">Subscribe</button>
+    </div>
+</form>
+
+<br>
+
+<section style="text-align: center;">
+    <button type="button"
+    onclick="document.getElementById('date').innerHTML = Date()">Click for time and date</button>
+    <p id="date"></p>
+</section>
+<br>
+
+<div class="resume">
+    <header>
+        <h1>Kaimon Again</h1>
+        <h2>Uni student</h2>
+    </header>
+    <section>
+        <h3>About Me</h3>
+        <p>Currently studying at deakin</p>
+    </section>
+    <section>
+        <h3>Skills</h3>
+        <ul>
+            <li>C#</li>
+            <li>C++</li>
+            <li>Java</li>
+            <li>Javascript</li>
+            <li>HTML</li>
+            <li>CSS</li>
+        </ul>
+    </section>
+</div>
+
+
+</body>
+</html>
